@@ -1,0 +1,18 @@
+#addbag{
+    border: none;
+    background-color: lightgreen;
+    padding: 5px 35px;
+    border-radius: 10px;
+}
+#movebag{
+    border: 3px solid black;
+    text-transform: uppercase;
+    padding: 5px 45px;
+    border-radius: 9px;
+}
+#oneplus{
+    border: none;
+    background-color: lightgreen;
+    padding: 5px 35px;
+    border-radius: 10px;
+}

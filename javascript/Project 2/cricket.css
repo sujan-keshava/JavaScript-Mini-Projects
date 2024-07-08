@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.image-class{
+    width: 90px;
+    margin: 10px;
+}
+
+.b-call{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

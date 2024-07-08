@@ -1,0 +1,38 @@
+#calculator{
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 5px;
+    width: 300px;
+    background-color: lightcyan;
+}
+#display{
+    height: 30px;
+    margin: 15px;
+    width: 88%;  
+    background-color: lightblue; 
+    font-size: 35px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightcyan;
+}
+.button{
+    font-size: 30px;
+    background-color: lightyellow;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: solid black;
+    
+}
+.button:hover{
+    color: red;
+    background-color: black;
+}
+#display:hover{
+    color: red;
+    background-color: black;
+
+}

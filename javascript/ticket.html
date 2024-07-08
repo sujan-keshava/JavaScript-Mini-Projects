@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tickett</title>
+</head>
+<body>
+    <h1 id="he"></h1>
+    <h3 id="lol"> </h3>
+    <script>
+        let age = 35 ;
+        let gender='female' ;
+        let finalDiscount;
+
+        if(age <= 5){
+            finalDiscount = 100;
+        } else if ( gender === 'female' || age <=8){
+            finalDiscount = 50;
+        } else if( age >= 65){
+            finalDiscount = 30;
+        }else{
+            finalDiscout = 0;
+            document.querySelector('#lol').textContent=`no discount lol ${finalDiscount}`;
+        }
+        alert(`your final discount is ${finalDiscount}`)
+        document.querySelector('#he').textContent=finalDiscount;
+
+    </script>
+</body>
+</html>
